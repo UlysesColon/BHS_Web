@@ -137,6 +137,24 @@ code,pre {
     animation: slideInFromRight 1s ease-in;
 }
 
+.showcase-game {
+    position: relative;
+    top: 60px;
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    z-index: 100;
+    animation: rotateAround 3s ease-in;
+}
+
+.game_download {
+    padding-left: 25%;
+    font-family: "Metal Mania", cursive;
+}
+.game_font {
+    font-family: "Metal Mania", cursive;
+}
+
 .showcase-form .form-control {
     margin: 30px 0;
 }
@@ -252,6 +270,13 @@ code,pre {
     grid-column: 1 / span 2;
 }
 
+/* Game Images*/
+.game_logo{
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+
+}
 /* DOCS */
 .docs-main h3 {
     margin: 20px 0;
